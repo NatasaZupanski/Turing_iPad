@@ -15,6 +15,8 @@
 		042ABAC7263C75730011469A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042ABA9C263C75720011469A /* ContentView.swift */; };
 		042ABAC8263C75730011469A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042ABA9D263C75720011469A /* Assets.xcassets */; };
 		042ABAC9263C75730011469A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042ABA9D263C75720011469A /* Assets.xcassets */; };
+		042ABADC263C78F10011469A /* TuringVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042ABADB263C78F10011469A /* TuringVM.swift */; };
+		042ABADE263C79280011469A /* TTuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042ABADD263C79280011469A /* TTuple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		042ABABD263C75730011469A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		042ABAC1263C75730011469A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		042ABAC3263C75730011469A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042ABADB263C78F10011469A /* TuringVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuringVM.swift; sourceTree = "<group>"; };
+		042ABADD263C79280011469A /* TTuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTuple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,8 @@
 		042ABA9A263C75720011469A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				042ABA9B263C75720011469A /* Turing_iPadApp.swift */,
-				042ABA9C263C75720011469A /* ContentView.swift */,
+				042ABAD8263C788B0011469A /* View */,
+				042ABADA263C78B70011469A /* NonView */,
 				042ABA9D263C75720011469A /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -149,6 +153,32 @@
 				042ABAC3263C75730011469A /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		042ABAD8263C788B0011469A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				042ABAD9263C78A90011469A /* App */,
+				042ABA9C263C75720011469A /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		042ABAD9263C78A90011469A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				042ABA9B263C75720011469A /* Turing_iPadApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		042ABADA263C78B70011469A /* NonView */ = {
+			isa = PBXGroup;
+			children = (
+				042ABADB263C78F10011469A /* TuringVM.swift */,
+				042ABADD263C79280011469A /* TTuple.swift */,
+			);
+			path = NonView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +339,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				042ABAC6263C75730011469A /* ContentView.swift in Sources */,
+				042ABADE263C79280011469A /* TTuple.swift in Sources */,
+				042ABADC263C78F10011469A /* TuringVM.swift in Sources */,
 				042ABAC4263C75730011469A /* Turing_iPadApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
