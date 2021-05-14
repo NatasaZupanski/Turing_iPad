@@ -17,6 +17,9 @@
 		042ABAC9263C75730011469A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042ABA9D263C75720011469A /* Assets.xcassets */; };
 		042ABADC263C78F10011469A /* TuringVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042ABADB263C78F10011469A /* TuringVM.swift */; };
 		042ABADE263C79280011469A /* TTuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042ABADD263C79280011469A /* TTuple.swift */; };
+		04583F2A2648327D00036658 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04583F292648327D00036658 /* Data.swift */; };
+		04583F2C26483C0500036658 /* TuringData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04583F2B26483C0500036658 /* TuringData.swift */; };
+		04583F2E26483F0300036658 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04583F2D26483F0300036658 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		042ABAC3263C75730011469A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042ABADB263C78F10011469A /* TuringVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuringVM.swift; sourceTree = "<group>"; };
 		042ABADD263C79280011469A /* TTuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTuple.swift; sourceTree = "<group>"; };
+		04583F292648327D00036658 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		04583F2B26483C0500036658 /* TuringData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuringData.swift; sourceTree = "<group>"; };
+		04583F2D26483F0300036658 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +166,7 @@
 			children = (
 				042ABAD9263C78A90011469A /* App */,
 				042ABA9C263C75720011469A /* ContentView.swift */,
+				04583F2D26483F0300036658 /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,6 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				042ABADB263C78F10011469A /* TuringVM.swift */,
+				04583F2B26483C0500036658 /* TuringData.swift */,
+				04583F292648327D00036658 /* Data.swift */,
 				042ABADD263C79280011469A /* TTuple.swift */,
 			);
 			path = NonView;
@@ -338,7 +347,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04583F2C26483C0500036658 /* TuringData.swift in Sources */,
+				04583F2E26483F0300036658 /* MainView.swift in Sources */,
 				042ABAC6263C75730011469A /* ContentView.swift in Sources */,
+				04583F2A2648327D00036658 /* Data.swift in Sources */,
 				042ABADE263C79280011469A /* TTuple.swift in Sources */,
 				042ABADC263C78F10011469A /* TuringVM.swift in Sources */,
 				042ABAC4263C75730011469A /* Turing_iPadApp.swift in Sources */,

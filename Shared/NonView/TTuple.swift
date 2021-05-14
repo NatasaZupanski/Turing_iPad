@@ -12,7 +12,7 @@ enum Direction {
   case right
 }
  
-struct TTuple : CustomStringConvertible {
+struct TTuple : CustomStringConvertible, Equatable {
     let currentState: Int
     let inputChar: Character
     let newState: Int

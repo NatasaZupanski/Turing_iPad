@@ -11,7 +11,8 @@ import SwiftUI
 struct Turing_iPadApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            MainView()
         }
     }
 }
